@@ -1138,3 +1138,32 @@ textarea#comment::placeholder {
 .margin_90 {
     margin: 90px 0px;
 }
+
+@media (max-width: 768px) {
+    .newsletter_section {
+        padding: 20px; /* Reduce padding for smaller screens */
+    }
+
+    .newsletter_taital {
+        font-size: 24px; /* Adjust font size for better readability */
+    }
+
+    .mail_main {
+        flex-direction: column; /* Stack input and button vertically */
+        align-items: center; /* Center align the items */
+    }
+
+    .email_text {
+        width: 100%; /* Make the input field take full width */
+        margin-bottom: 10px; /* Add spacing between input and button */
+    }
+
+    .left_arrow {
+        width: 100%; /* Make the button take full width */
+        padding: 10px 0; /* Adjust padding for better touch interaction */
+    }
+
+    .left_arrow img {
+        width: 20px; /* Adjust the size of the arrow icon */
+    }
+}
